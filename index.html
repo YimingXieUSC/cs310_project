@@ -17,17 +17,6 @@
     <body>
       <navi-bar></navi-bar>
       <div>
-
-      <div class="btn-group">
-        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-          Right-aligned menu example
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end">
-          <li><button class="dropdown-item" type="button">Action</button></li>
-          <li><button class="dropdown-item" type="button">Another action</button></li>
-          <li><button class="dropdown-item" type="button">Something else here</button></li>
-        </ul>
-      </div>
 <!-- 
       <better-header-component></better-header-component> -->
 
@@ -37,8 +26,6 @@
         <p>If this button appears blue and the link appears purple, you've done it!</p>
       </div>
 
-      <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Toggle example modal</button>
-      <a href="#" class="text-success">Example link</a>
 
       <h1>Add ability to scroll through all events in proposal</h1>
       <div class="col-lg-8 px-0">
@@ -68,6 +55,203 @@
           <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0zm0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
         </symbol>
       </svg>
+
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Button with data-bs-target
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <h3>Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</h3>
+          <div class="row align-items-center">
+            <div class="col">
+              <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"> -->
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <h5>Excitement</h5>
+                  <button type="button" class="btn btn-primary">1</button>
+                  <button type="button" class="btn btn-primary">2</button>
+                  <button type="button" class="btn btn-primary">3</button>
+                  <button type="button" class="btn btn-primary">4</button>
+                  <button type="button" class="btn btn-primary">5</button>
+                </div>
+                
+                <div class="btn-group me-2" role="group2" aria-label="Second group">
+                  <h5>Attending? </h5>
+                  <button type="button" class="btn btn-secondary">Going</button>
+                  <button type="button" class="btn btn-secondary">Maybe</button>
+                  <button type="button" class="btn btn-secondary">Not Going</button>
+                </div>
+            <!-- </div> -->
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Schedule</button>
+    
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Are you sure to preceed with your current decision?
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                      <button type="button" class="btn btn-primary">Yes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+    
+
+
+        </div>
+
+
+        <ul class="list-group row-12" style="max-width: 100%;">
+          <li class="list-group-item">
+            <h4 style="display: inline-block;">USC Viterbi Career Fair</h4>
+            <button style="float: right;" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
+            </button>
+        
+          </p>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Event</label>
+                  <p>USC Viterbi Career Fair</p>
+                  <!-- <input type="password" class="form-control" id="inputPassword4"> -->
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Inviter</label>
+                  <p>Makko Xie</p>
+                  <!-- <input type="email" class="form-control" id="inputEmail4"> -->
+                </div>
+    
+                <div class="col-6">
+                  <label for="inputAddress" class="form-label">Time</label>
+                  <p>Monday May 12th, 2021 4:00AM - 5:00AM</p>
+                </div>
+                <div class="col-6">
+                  <label for="inputAddress" class="form-label">Location</label>
+                  <p>THH 201</p>
+                </div>
+                <div class="col-md-12">
+                  <label for="inputCity" class="form-label">Comments</label>
+                  <p>Bring your resume!</p>
+                </div>
+    
+                <div class="col-12">
+                  <p style="padding-top: 5px; display: inline-block;">Excitement</p>
+                    <div class="btn-group" role="group" aria-label="First group" style="display: inline-block;">
+                
+                      <button type="button" class="btn btn-primary" style="margin-left: 20px;">1</button>
+                      <button type="button" class="btn btn-primary">2</button>
+                      <button type="button" class="btn btn-primary">3</button>
+                      <button type="button" class="btn btn-primary">4</button>
+                      <button type="button" class="btn btn-primary">5</button>
+                    </div>
+                    <p style="padding-top: 5px; padding-left: 20px; display: inline-block;">Attending? </p>
+    
+                    <div class="btn-group me-2" role="group2" aria-label="Second group" style="display: inline-block;">
+                      <button type="button" class="btn btn-secondary" style="margin-left: 20px;">Going</button>
+                      <button type="button" class="btn btn-secondary">Maybe</button>
+                      <button type="button" class="btn btn-secondary">Not Going</button>
+                    </div>
+                </div>
+    
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </form>
+    
+            </div>
+          </div>
+          </li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+          Button with data-bs-target
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Event</label>
+              <p>USC Viterbi Career Fair</p>
+              <!-- <input type="password" class="form-control" id="inputPassword4"> -->
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Inviter</label>
+              <p>Makko Xie</p>
+              <!-- <input type="email" class="form-control" id="inputEmail4"> -->
+            </div>
+
+            <div class="col-6">
+              <label for="inputAddress" class="form-label">Time</label>
+              <p>Monday May 12th, 2021 4:00AM - 5:00AM</p>
+            </div>
+            <div class="col-6">
+              <label for="inputAddress" class="form-label">Location</label>
+              <p>THH 201</p>
+            </div>
+            <div class="col-md-12">
+              <label for="inputCity" class="form-label">Comments</label>
+              <p>Bring your resume!</p>
+            </div>
+
+            <div class="col-12">
+              <p style="padding-top: 5px; display: inline-block;">Excitement</p>
+                <div class="btn-group" role="group" aria-label="First group" style="display: inline-block;">
+            
+                  <button type="button" class="btn btn-primary" style="margin-left: 20px;">1</button>
+                  <button type="button" class="btn btn-primary">2</button>
+                  <button type="button" class="btn btn-primary">3</button>
+                  <button type="button" class="btn btn-primary">4</button>
+                  <button type="button" class="btn btn-primary">5</button>
+                </div>
+                <p style="padding-top: 5px; padding-left: 20px; display: inline-block;">Attending? </p>
+
+                <div class="btn-group me-2" role="group2" aria-label="Second group" style="display: inline-block;">
+                  <button type="button" class="btn btn-secondary" style="margin-left: 20px;">Going</button>
+                  <button type="button" class="btn btn-secondary">Maybe</button>
+                  <button type="button" class="btn btn-secondary">Not Going</button>
+                </div>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+      </div>
       
       <div class="list-group">
         <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
@@ -101,111 +285,11 @@
           </div>
         </a>
       </div>
-      
-     
-      
-      <!-- <div class="b-example-divider"></div>
-      
-      <div class="list-group">
-        <label class="list-group-item d-flex gap-3">
-          <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked style="font-size: 1.375em;">
-          <span class="pt-1 form-checked-content">
-            <strong>Finish sales report</strong>
-            <small class="d-block text-muted">
-              <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#calendar-event"/></svg>
-              1:00–2:00pm
-            </small>
-          </span>
-        </label>
-        <label class="list-group-item d-flex gap-3">
-          <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
-          <span class="pt-1 form-checked-content">
-            <strong>Weekly All Hands</strong>
-            <small class="d-block text-muted">
-              <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#calendar-event"/></svg>
-              2:00–2:30pm
-            </small>
-          </span>
-        </label>
-        <label class="list-group-item d-flex gap-3">
-          <input class="form-check-input flex-shrink-0" type="checkbox" value="" style="font-size: 1.375em;">
-          <span class="pt-1 form-checked-content">
-            <strong>Out of office</strong>
-            <small class="d-block text-muted">
-              <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#alarm"/></svg>
-              Tomorrow
-            </small>
-          </span>
-        </label>
-        <label class="list-group-item d-flex gap-3 bg-light">
-          <input class="form-check-input form-check-input-placeholder bg-light flex-shrink-0" disabled type="checkbox" value="" style="font-size: 1.375em;">
-          <span class="pt-1 form-checked-content">
-            <span contenteditable="true" class="w-100">Add new task...</span>
-            <small class="d-block text-muted">
-              <svg class="bi me-1" width="1em" height="1em"><use xlink:href="#list-check"/></svg>
-              Choose list...
-            </small>
-          </span>
-        </label>
-      </div> -->
 
           <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
       
       <!---------------------------------------->
 
-      <button type="button" class="btn btn-primary mr-3" data-toggle="modal" data-target="#exampleModal">Schedule</button>
-      <a href="#" class="text-success">Confirm</a>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              Are you sure to preceed with your current decision?
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
-              <button type="button" class="btn btn-primary">Yes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="my-5 w-25 mx-0">
-
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Adding Bootstrap Icons</h2>
-          <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
-
-          <svg class="bi text-danger" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-          </svg>
-          <svg class="bi text-dark" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-          </svg>
-          <svg class="bi text-primary" width="32" height="32">
-            <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-          </svg>
-        </div>
-
-        <!------------------------------------------------------------------------------------------------>
-
-        <div class="col-md-6">
-          <h2>Guides</h2>
-          <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-          <ul class="icon-list">
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction">Bootstrap quick start guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/webpack">Bootstrap Webpack guide</a></li>
-            <li><a href="https://getbootstrap.com/docs/4.6/getting-started/build-tools">Contributing to Bootstrap</a></li>
-          </ul>
-        </div>
-      </div>
 
       <hr class="my-5">
 
