@@ -1,4 +1,4 @@
-class NavBar extends HTMLElement {
+class NavBarMainPage extends HTMLElement {
     constructor() {
       super();
     }
@@ -14,7 +14,7 @@ class NavBar extends HTMLElement {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index_chris.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
@@ -50,4 +50,4 @@ class NavBar extends HTMLElement {
 }
 
 
-  customElements.define('navi-bar-mainpage', NavBar);
+  customElements.define('navi-bar-mainpage', NavBarMainPage);

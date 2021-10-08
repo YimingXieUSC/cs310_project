@@ -1,0 +1,160 @@
+.color-white {
+	color: white;
+}
+.active {
+	color: black !important;
+}
+
+#new_group_date_button {
+	margin-top: 50px;
+  	margin-bottom: 50px;
+}
+
+.blue {
+	background-color: RoyalBlue !important;
+}
+
+.link{
+	color: gray !important;
+}
+
+.nav-color{
+	background-color: gray !important;
+}
+
+
+.jumbotron{ 
+	background-image: url('main.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	height: 450px;
+	background-position: 100% 50%;
+	position: relative;
+	z-index: 0;
+}
+
+.jumbotron-header{ 
+	background-image: url('main.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat;
+	height: 250px;
+	background-position: 100% 50%;
+	position: relative;
+	z-index: 0;
+}
+
+.color-red{
+	color: blue;
+}
+
+.header-text{
+	text-align: center;
+	font-family: 'cereal', sans-serif;
+}
+
+.lower-text{
+	text-align: center;
+	font-size: 30px;
+}
+
+.overlay{
+	background-color: black;
+	opacity: 55%;
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container-2{
+	position: absolute !important;
+	z-index: 2 !important;
+	top: 50% !important;
+  	left: 50% !important;
+  	transform: translate(-50%, -50%) !important;
+}
+
+.bg-light {
+    background-color: lightgray !important;
+}
+
+.navbar-brand {
+    color: RoyalBlue !important;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: RoyalBlue;
+}
+
+.navbar-dark .navbar-toggler {
+    
+    border-color:rgba(0, 0, 0, 0.1);
+}
+
+.row h2{
+	font-size: 30px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	padding-bottom: 10px;
+}
+
+.row span{
+	padding-bottom: 10px;
+}
+
+.row img{
+	width: 100% !important;
+}
+
+.home-row{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-bottom: 1px lightgray solid;
+}
+
+.home-col{
+	padding: 30px;
+	/*padding-bottom: 30px;*/
+
+}
+
+.home-col-img{
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@font-face{
+	font-family: 'cereal';
+	src: url('AirbnbCerealBold.ttf');
+}
+
+.rounded-circle{
+	/*padding: 50px !important;
+	margin: 20px !important;*/
+	padding: 10% !important;
+}
+
+.name{
+	text-align: center !important;
+}
+
+.view-more{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+@media (min-width: 768px){
+	.home-col{
+		padding: 0 !important;
+		margin-bottom: 30px;
+	}
+
+}
