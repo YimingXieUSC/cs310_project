@@ -1,4 +1,4 @@
-class NavBar extends HTMLElement {
+class NavBarLogin extends HTMLElement {
     constructor() {
       super();
     }
@@ -36,7 +36,7 @@ class NavBar extends HTMLElement {
       </ul>
       
       <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-right: 10px;"><a href="login.html">Login</a></button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-right: 10px;"><a href="index.html">Create Account</a></button>
       </form>
     </div>
   </nav>
@@ -45,4 +45,4 @@ class NavBar extends HTMLElement {
 }
 
 
-  customElements.define('navi-bar', NavBar);
+  customElements.define('navi-bar-login', NavBarLogin);

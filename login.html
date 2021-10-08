@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title> Sign up page</title>
+<title> Login page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/css/starter.css">
 <link href="assets/css/list-groups.css" rel="stylesheet">
@@ -10,6 +10,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 <script src="components/header2.js" type="text/javascript" defer></script>
+<script src="components/navbar_login.js" type="text/javascript" defer></script>
 <script src="components/navbar.js" type="text/javascript" defer></script>
 <script src="components/header.js" type="text/javascript" defer></script>
  <!-- Bootstrap CSS -->
@@ -86,28 +87,18 @@ body{
 background-color: white;
 }
 </style>
-<script src="components/navbar.js" type="text/javascript" defer></script>
 </head>
 <body>
-	<navi-bar></navi-bar>
-<!-- <header class="header">
-	<li2><a href="index2.html" class="logo">groupie </a></2>
-		<a class="logo2" href= "home.html"> home</a>
-		<a class="logo2" href="login.html">login</a>
-		<a class="logo2" href="signup.html">sign up</a>
-</header> -->
-<br>
+	<navi-bar-login></navi-bar-login>
+
 <div class="r">
 	<div class="c">
-	<h1 class = "title">sign up</h1>
-		<form class="f" method = "POST" action="registerServlet">
-			name<br> <input type="test" class="b"  name = "name" required /><br>
+	<h1 class = "title">login</h1>
+		<form class="f" name = "login" method = "POST" action="LoginServlet">
 			username<br> <input type="text" class="b" name = "username" required /><br>
-			password<br><input type="password" class="b" name = "password"      required/><br>
-			confirm password<br><input type="password" class="b" name = "confirmpassword" required/><br>
+			password<br><input type="password" class="b" name = "password"  required/><br>
 			<br>
-			<button type="submit"class="contentbutton" href="mainpage.html"> create account</button>
-			<br>
+			<button class="contentbutton" type="submit"><a href="mainpage.html">sign in</a></button>
 		</form>
 	</div>
 </div>
